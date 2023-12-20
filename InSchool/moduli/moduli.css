@@ -1161,75 +1161,181 @@ height: 4vw;
     font-style: normal; 
     font-weight: normal; 
   }
-@media screen and (max-width: 375px)
-{
-    .rectangle
-    {
-        position: absolute;
-        width: 35vw;
-        height: 35vw;
-        border-radius: 15px;
-        background: #FFF;
-        box-shadow: 3px 3px 25px 0px rgba(0, 0, 0, 0.10);
-        margin-left: 35vw;
-        margin-top: 7vw;
-        margin-right: 6.3%;
-    }
-    .rectangle > h1
-{
-    color: #000;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 10vw;
-    font-style: normal;
-    line-height: normal;
-    margin: 0;
-    margin-top: 20%;
-}
-.rectangle > h2
-{
-color: #000;
-text-align: center;
-font-family: Raleway;
-font-size: 6vw;
-font-style: normal;
-font-weight: 100;
-line-height: normal;
-margin: 0;
-}
-.rectangle > h3
-{
-color: #000;
-text-align: center;
-font-family: Raleway;
-font-size: 4vw;
-font-style: normal;
-font-weight: 100;
-line-height: normal;
-margin: 0;
-}
-
-
-
-.sliner
-{
-    margin-top: 45vw;
-    width: 100vw;
-    height: 30vw;
-    margin-left: 5vw;
-    border-radius: 30px;
-    background: #FFF;
-    box-shadow: 3px 3px 25px 0px rgba(0, 0, 0, 0.10);
-}
-.scroll 
-{
-    margin: 4px, 4px;
-    padding: 4px;
-    margin-left: 3%;
-    width: 75vw;
-    height: 10vw;
-    overflow-x: hidden;
-    overflow-y: auto;
-    text-align: justify;
-}
-}
+  @media screen and (max-width: 375px)
+  {
+      .rectangle
+      {
+          position: absolute;
+          width: 35vw;
+          height: 35vw;
+          border-radius: 15px;
+          background: #FFF;
+          box-shadow: 3px 3px 25px 0px rgba(0, 0, 0, 0.10);
+          margin-left: 30vw;
+          margin-top: 7vw;
+          margin-right: 6.3%;
+      }
+      .rectangle > h1
+  {
+      color: #000;
+      text-align: center;
+      font-family: Raleway;
+      font-size: 10vw;
+      font-style: normal;
+      line-height: normal;
+      margin: 0;
+      margin-top: 20%;
+  }
+  .rectangle > h2
+  {
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 6vw;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 0;
+  }
+  .rectangle > h3
+  {
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 0;
+  }
+  
+  
+  
+  .sliner
+  {
+      margin-top: 45vw;
+      width: 100vw;
+      height: 30vw;
+      margin-left: 5vw;
+      border-radius: 30px;
+      background: #FFF;
+      box-shadow: 3px 3px 25px 0px rgba(0, 0, 0, 0.10);
+  }
+  .scroll 
+  {
+      margin: 4px, 4px;
+      padding: 4px;
+      margin-left: 3%;
+      width: 75vw;
+      height: 20vw;
+      overflow-x: hidden;
+      overflow-y: auto;
+      text-align: justify;
+  }
+  .oplata
+  {
+      margin-left: 6vw;
+      margin-top: 150%;
+      width: 85vw;
+      height: 25vw;
+      border-radius: 15px;
+      background: #FFF;
+      box-shadow: 3px 3px 25px 0px rgba(0, 0, 0, 0.10);
+  }
+  .number
+  {
+      position: absolute;
+      margin-top: 110%;
+      width: 90vw;
+      margin-left: 5%;
+  }
+  .block2
+  {
+      flex-direction: column;
+  }
+  
+  .zanyatie
+  {
+      position: absolute;
+      margin-left: 6vw;
+      margin-top: 30%;
+      width: 90vw;
+      height: 13.5vw;
+      border-radius: 30px;
+      background: #FFF;
+      box-shadow: 3px 3px 25px 0px rgba(0, 0, 0, 0.10);
+  }
+  .uvedomlenia
+  {
+      margin-left: 6vw;
+      position: absolute;
+      margin-top: 5%;
+      width: 90vw;
+      height: 20vw;
+  }
+  .propavshie
+  {
+      margin-left: 6vw;
+      position: absolute;
+      width: 90vw;
+      margin-top: 30%;
+  }
+  .zadachi
+  {
+      margin-top: 30%;
+      margin-left: 6vw;
+      position: absolute;
+      width: 90vw;
+  }
+  .doljniki
+  {
+      margin-left: 6vw;
+      position: absolute;
+      width: 90vw;  
+  }
+  .dobavitzadachu
+  {
+      margin-left: 6vw;
+      position: absolute;
+      width: 90vw;
+      height: 20vw;
+  }
+  .rojdenia
+  {
+      margin-top: 30%;
+      width: 90vw;
+  }
+  .scroll3
+  {
+      margin: 4px, 4px;
+      padding: 4px;
+      margin-left: 3%;
+      width: 80vw;
+      height: 7vw;
+      overflow-x: hidden;
+      overflow-y: auto;
+      text-align: justify;
+  }
+  .scroll6
+  {
+      margin: 4px, 4px;
+      padding: 4px;
+      margin-left: 3%;
+      width: 80vw;
+      height: 16vw;
+      overflow-x: hidden;
+      overflow-y: auto;
+      text-align: justify;
+  }
+  .scroll5
+  {
+      margin: 4px, 4px;
+      padding: 4px;
+      margin-left: 3%;
+      width: 80vw;
+      height: 12.5vw;
+      overflow-x: hidden;
+      overflow-y: auto;
+      text-align: justify;
+  }
+  }
